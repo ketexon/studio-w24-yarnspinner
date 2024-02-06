@@ -1,0 +1,13 @@
+﻿title: Start
+---
+Narrator: Welcome to the game!
+Narrator: Please select where you want to go
+	-> I want to go to the castle!
+		<<change_scene Castle>>
+		<<stop>>
+	-> I want to go to the museum!
+		<<change_scene Museum>>
+		<<stop>>
+	-> :I want to stay with you :3
+Narrator: Oh... [color="red"]do[/color] you...
+===

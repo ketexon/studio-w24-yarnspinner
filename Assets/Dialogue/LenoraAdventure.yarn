@@ -1,0 +1,27 @@
+title: LenoraStart
+---
+Narrator: In this example Dialogue, we will watch Lenora, an olda Spanish woman from Sweden, travel between a castle and a museum.
+Lenora: Hi, I'm Lenora, an old Spanish woman from Sweden in the 1900s.
+Lenora: Today I really want to go to the <i>museum</i> or the <i>castle</i> #expression:drool
+<<jump LenoraChoice>>
+===
+title: LenoraChoice
+---
+Lenora: Where should I go? #expression:thinking
+	-> The museum
+		Lenora: Hmmm... I'm not feeling like going to museum actually... #expression:pensive
+		<<jump LenoraChoice>>
+	-> The castle
+		Lenora: Hmmm... I'm not feeling like going to castle actually... #expression:pensive
+		<<jump LenoraChoice>>
+	-> Costco
+		<<change_scene LenoraCostco>>
+===
+title: LenoraCostco
+---
+Lenora: Ew, this place is gross. I bet this place doesn't have $1.49 hot dogs. #expression:worry
+<<show_sprite HotDog>>
+Lenora: NO WAY!!! #expression:scream
+<<hide_sprite HotDog>>
+Lenora: *nom nom nom* #expression:drool
+===

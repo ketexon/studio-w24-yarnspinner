@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/ScriptingDemo/LenoraMain.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ScriptingDemo/LenoraCastle.unity
+    guid: 4a5437693f36eff4fb77c2dd4a03681e
+  - enabled: 1
+    path: Assets/Scenes/ScriptingDemo/LenoraCostco.unity
+    guid: ee0838ae7c614584798ddbc5f91e7ddb
+  - enabled: 1
+    path: Assets/Scenes/ScriptingDemo/LenoraMuseum.unity
+    guid: ca4a94457784f89479ab38b6e3e46f9d
   m_configObjects: {}
